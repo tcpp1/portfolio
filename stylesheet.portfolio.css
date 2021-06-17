@@ -29,7 +29,7 @@ img{
 
 #mainvisual{
 	width: 100%;
-	background-image: url(/Users/rhng42/Desktop/portfolio/image/mainvisual.jpg );
+	background-image: url(https://github.com/tcpp1/portfolio/blob/main/image/mainvisual.jpg?raw=true);
 	background-size: cover;
 }
 
