@@ -23,9 +23,13 @@ body{
 	background-color: #F0E7D8;
 }
 
+img{
+	border-radius: 12px;
+}
+
 #mainvisual{
 	width: 100%;
-	background-image: url(https://github.com/tcpp1/portfolio/blob/main/image/mainvisual.jpg?raw=true );
+	background-image: url(/Users/rhng42/Desktop/portfolio/image/mainvisual.jpg );
 	background-size: cover;
 }
 
@@ -33,10 +37,24 @@ body{
 	font-family: 'Lobster', cursive;
 	font-size: 50px;
 	text-align: center;
-	padding: 500px 0;
+	padding: 500px 0 170px 0;
 	color: white;
 	opacity: 0.85;
 }
+
+#mainvisual h2{
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 200px;
+	color: white;
+	opacity: 0.85;
+}
+
+.main-title{
+	display: none;
+}
+
 
 .menu{
 	margin: 0 auto;
@@ -82,7 +100,7 @@ header{
 }
 
 .moto-icon{
-	margin: 20px 40px;
+	margin: 20px 15px;
 }
 
 
@@ -96,7 +114,7 @@ header{
 .moto-parent h2{
 	font-family: 'Bree Serif', serif;
 	display: inline-block;
-	padding-left: 40px;
+	padding-left: 10px;
 	padding-bottom: 60px;
 }
 
@@ -105,24 +123,79 @@ header{
 	margin: 0 auto;
 }
 
+.slide{
+	display: none;
+}
+
+.active{
+	display: block;
+}
+
+
+
 .design-introduction{
 	font-family: 'Bree Serif', serif;
-	font-size: 25px;
-	padding-bottom: 30px;
+	font-size: 20px;
+	padding: 50px 25px 50px 25px;
+	display: inline-block;
 }
 .design-introduction span{
-	font-size: 60px;
+	font-size: 40px;
 }
+
+
+.container{
+	display: flex;
+	padding-bottom: 60px;
+}
+
+.artwork-left{
+	max-width: 50%;
+}
+
+.artwork-left img{
+	width: 100%;
+}
+
+.artwork-right{
+	max-width: 50%;
+	margin: 10px;
+}
+
+.sampleimgs{
+	display: flex;
+	padding-left: 10px;
+}
+
+.Teethumb{
+	padding: 10px;
+	width: 100%;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
 
 .suzuributton{
 	margin: 0 auto;
-	width: 70%;
+	width: 500px;
+	border: 3px solid black;
 	border-radius: 15px;
 	margin-bottom: 60px;
-	padding: 30px;
+	padding: 15px;
 	font-size: 30px;
 	text-align: center;
 	font-family: 'Staatliches', cursive;
-	background-color: #fff;
+	background-color: transparent;
 	padding: 15px;
+	transition: 0.2s;
+}
+
+.suzuributton:hover{
+	border: 3px solid #fff;
+	background-color: #fff;
+}
+
+#webdesign{
+	width: 70vw;
+	margin: 0 auto;
 }
