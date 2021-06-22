@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Hoy's Portfolio & Custom Archive</title>
+	<title>Hoycolo's Portfolio & Custom Archive</title>
 	<link rel="icon" type="image/x-icon" href="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="stylesheet.portfolio.css">
@@ -16,7 +16,9 @@
 
 
 	<div id="mainvisual">
-		<h1 class="site-title">My Portfolio & Custom Archive</h1>
+		<h1 class="main-title">My Portfolio & Custom Archive</h1>
+
+		<h2 class="main-subtitle animate__animated animate__fadeInDown">Scroll</h2>
 	</div>
 
 	<header>
@@ -26,10 +28,20 @@
 					<li><a href="#motos">Motos</a></li>
 					<li><a href="#artworks">Artworks</a></li>
 					<li><a href="#webdesign">Web Design</a></li>
-					<li>Myself</li>
+					<li><a href="#myself">About Me</a></li>
 				</ul>
 			</div>
+
+			<div class="language">
+				<div class="langbtn">
+						<span class="jpn">English</span>
+						<span class="eng active2">日本語</span>
+				</div>
+			</div>
+
+
 		</div>
+
 	</header>
 
 	<section id="motos">
@@ -87,39 +99,48 @@
 	<section id="artworks">
 		<h1 class="section-title">Artworks</h1>
 
+		<p class="design-introduction eng active2">I designed these Tee shirts inspired by my motorcycles. Most of the process of my design starts with hand drawing. Then scan them to Photoshop or Illustrator to add colors and some details. I can use Adobe Photoshop and Illustrator. Here's some of my products.</p>
+
+		<p class="jpn">
+			これらのTシャツシャツのデザインは、自分の持つバイクから着想を得ています。デザインのプロセスとしては、ほとんどの場合はまず手書きのイラストから始まり、それらをPhotoshopやIllsutratorに落とし込み、着色などのディテールを加えます。これらのデザインもすべてPhotoshopとIllustratorで作成しました。
+		</p>
+
+
 		<div class="container">
 			<div class="artwork-left">
 				<ul class="imgSlides">
 
-					<li class="slide"><img src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample01.png?raw=true"></li>
+					<li class="animate__animated slide"><img src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample01.png?raw=true
+"></li>
 
-					<li class="slide"><img src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample02.png?raw=true"></li>
+					<li class="animate__animated slide"><img src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample02.png?raw=true
+"></li>
 
-					<li class="slide active"><img src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample03.png?raw=true"></li>
+					<li class="animate__animated slide active"><img src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample03.png?raw=true
+"></li>
 
-					<li class="slide"><img src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample04.png?raw=true"></li>
+					<li class="animate__animated slide"><img src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample03.png?raw=true
+"></li>
 
 
 				</ul>
-
-
 
 			</div>
 
 			<div class="artwork-right">
 
-				<p class="design-introduction"><span>I </span>design some Tee shirts based on my motorcycles, hobbies, and all of my life experiences. And they all have hidden messages. I learned Illustrations by myself since I was age 16, first time I designed Tee is when I was 19, I drew a dog in the style of the street graffiti and printed with silk screen. The experience gives me huge confidence of making Tees. After few years The Suzuri, very usefull apprication was appeard when I was thinking of making my own design goods again. Here's some of my products.</p>
+		
 
 				<div class="sampleimgs">
 
-					<img  class="Teethumb" src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample01.png?raw=true">
+					
+					<img  class="Teethumb" src="/Users/rhng42/Desktop/portfolio/image/TeeSample01.png">
 
-					<img  class="Teethumb" src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample02.png?raw=true">
+					<img  class="Teethumb" src="/Users/rhng42/Desktop/portfolio/image/TeeSample02.png">
 
-					<img class="Teethumb"src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample03.png?raw=true">
+					<img class="Teethumb"src="/Users/rhng42/Desktop/portfolio/image/TeeSample03.png">
 
-					<img  class="Teethumb" src="https://github.com/tcpp1/portfolio/blob/main/image/TeeSample04.png?raw=true">
-
+					<img  class="Teethumb" src="/Users/rhng42/Desktop/portfolio/image/TeeSample04.png">
 				</div>
 
 			</div>
@@ -129,7 +150,8 @@
 	
 		<a href="https://suzuri.jp/Oldinary" target="blank">
 			<div class="suzuributton">
-				<h2>Check My Design on Suzuri</h2>
+				<h2 class="eng active2">Check My Design on Suzuri</h2>
+				<h2 class="jpn">Suzuriで商品を見る</h2>
 			</div>
 		</a>
 
@@ -137,12 +159,21 @@
 
 
 
-	<section>
+	<section id=webdesign>
+		<h1 class="section-title">Web Design</h1>
+
+		<p class="webdesignIntro">I am learning <span>CSS/HTML</span> and <span>Jquery</span>. My skill is based on <a class="progate" href="https://prog-8.com/" target=blank>Progate</a>.
+		I'm still a beginner, but I'm trying hard to develop my skills of coding and designing. <br> Here are some of my website that I made as practice.</p>
+
+		<a class="samplesite" href="https://tcpp1.github.io/bugerbutt/" target=blank>BurgerButt</a>
+		<p class="siteCaption">This is a fictional website of a humberger shop named "BurgerButt". I code them HTML and CSS and Jquery.</p>
+
+
 	</section>
 
 
 
-	<section>
+	<section id="myself"> 
 	</section>
 
 
@@ -152,5 +183,5 @@
 
 	<script src="script.js"></script>
 </body>
-	
+
 </html>
